@@ -30,6 +30,10 @@ a:hover {
 
 ul {
   background-color: #eeeeee;
-  border: 5px purple;
+}
+ul border  {
+  border-width: 5px;
+  border-color: purple;
+  border-style: solid;
   padding: 10px;
 }

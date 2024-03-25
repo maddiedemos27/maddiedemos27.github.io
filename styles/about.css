@@ -11,12 +11,12 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  font-weight: italic;
+  font-style: italic;
 }
 
 .job-title {
   color: #999999;
-  font-style: bold;
+  font-weight: bold;
 }
 
 a:link,

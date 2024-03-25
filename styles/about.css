@@ -16,7 +16,7 @@ h2 {
 
 .job-title {
   color: #999999;
-  font-weight: bold;
+  font-style: bold;
 }
 
 a:link,
@@ -30,10 +30,6 @@ a:hover {
 
 ul {
   background-color: #eeeeee;
-}
-ul border  {
-  border-width: 5px;
-  border-color: purple;
-  border-style: solid;
-  padding: 10px;
+  border: 5px purple solid;
+  padding: 2em;
 }

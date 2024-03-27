@@ -33,9 +33,3 @@ ul {
   border: 5px purple solid;
   padding: 2em;
 }
-
-.box {
-  border-style: 5px black dotted;
-  margin: 20px, 1em, 40px, 2em;
-  padding: 1em;
-}

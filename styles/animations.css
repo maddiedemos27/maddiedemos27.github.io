@@ -17,21 +17,17 @@
     gap: 10px;
 }
 
-.animated-nav-menu:hover {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px; 
-    background-color: #00aaff;
-    text-emphasis-color: white;
-}
-
 .animated-nav-menu a {
     text-decoration: none;
     border-radius: 10%;
     padding: 4px;
     color: #00aaff;
     background-color: white;
+}
+
+.animated-nav-menu a:hover {
+    background-color: #00aaff;
+    color: white;
 }
 
 /* Task 3: Button Press Animation */

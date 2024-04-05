@@ -17,6 +17,15 @@
     gap: 10px;
 }
 
+.animated-nav-menu ul:hover {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    background-color: #00aaff;
+    text-emphasis-color: white;
+}
+
 .animated-nav-menu a {
     text-decoration: none;
     border-radius: 10%;

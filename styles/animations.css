@@ -1,7 +1,11 @@
 /* Task 1: Hover Highlight Card */
-.hover-highlight-card {
+.hover-highlight-card:hover {
     padding: 20px;
     color: lightblue;
+}
+
+.hover-highlight-card {
+    padding: 20px;
 }
 
 /* Task 2: Animated Navigation Menu */

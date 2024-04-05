@@ -1,7 +1,7 @@
 /* Task 1: Hover Highlight Card */
 .hover-highlight-card:hover {
     padding: 20px;
-    color: lightblue;
+    background-color: lightblue;
 }
 
 .hover-highlight-card {

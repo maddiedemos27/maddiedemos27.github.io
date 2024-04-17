@@ -39,6 +39,11 @@
     cursor: pointer;
 }
 
+.button-press-animation:click {
+    background-color: #0886c5;
+    color: white;
+    transform: translateY(10px);
+}
 /* Task 4: Simple Loading Spinner */
 .simple-loading-spinner .spinner {
     border: 4px solid #f3f3f3;

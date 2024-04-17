@@ -51,11 +51,19 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
-
-.animated-simple-loading-spinner .spinner {
     transform: rotate(360deg);
     animation-iteration-count: infinite;
+    animation-name: spinner;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
 }
 
 /* Task 5: Fading Gallery */

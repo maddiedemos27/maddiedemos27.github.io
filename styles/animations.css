@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 
-.button-press-animation:click {
+.button-press-animation button:active {
     background-color: #0886c5;
     color: white;
     transform: translateY(10px);
@@ -53,6 +53,11 @@
     height: 40px;
 }
 
+.animated-simple-loading-spinner .spinner {
+    transform: rotate(360deg);
+    animation-iteration-count: infinite;
+}
+
 /* Task 5: Fading Gallery */
 .fading-gallery {
     display: flex;
@@ -63,4 +68,5 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    opacity: 0.5;
 }

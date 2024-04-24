@@ -1,12 +1,11 @@
-  //task #1//
-    for (let i = i; i <=99; i++) {
-    println(i);
-    }
+//task #1//
+console.log("Task 1");
+for (let i = 0; i <=10; i++) {
+    console.log(i*i);
+}
 
-  //task #2//
-  for (var i = 5; i > 0; i--) {
+//task #2//
+for (let i = 5; i > 0; i--) {
     println(i);
-    [i].innerHTML = "Blast off!"
-    }
- 
- 
+}
+

@@ -1,5 +1,5 @@
   //task #1//
-    for (var i = i; i <=99; i++) {
+    for (let i = i; i <=99; i++) {
     println(i);
     }
  

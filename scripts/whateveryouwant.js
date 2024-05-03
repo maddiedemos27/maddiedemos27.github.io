@@ -14,16 +14,15 @@ for (let i = 0; i <= 50; i += 2) {
 }
 
 console.log("Task #4");
-let totalNumbers = 0;
 let sumNumbers = 0;
 for (let i = 1; i <= 100; i++) {
     sumNumbers = sumNumbers + i; 
-    console.log("" + sumNumbers)
 }
+console.log(sumNumbers);
 
-
-// "" + sumNumbers //
-// console.log("Task #5");
-// for (let i = 1; 1 <= 10; i++) {
-//     console.log(i*(i-1));
-// }
+console.log("Task #5");
+let numbersFactorial = 1;
+for (let i = 1; i <= 10; i++) {
+    numbersFactorial= numbersFactorial * i
+    console.log(numbersFactorial);
+}

@@ -43,15 +43,15 @@ for (let i = 1; i <= 10; i++) {
 
 // Task #6: Add the array arr with the same values as above, and write a loop to log each element to the console.
 console.log("Task #6");
-let arr = [3, 1, 4, 1, 5];
-for (let i = 1; i < arr.length; i++) {
-    console.log(arr[i]);
+let loop = [3, 1, 4, 1, 5];
+for (let i = 0; i < loop.length; i++) {
+    console.log(loop[i]);
 }
 
 // Task #7: Using a normal forward for-loop (for (let i = 0; i < arr.length; i++)), use .at() to log each element of arr in reverse order (i.e. 5, 1, 4, 1, 3).
 console.log("Task #7");
-for (let i = 1; i < arr.length; i++) {
-    console.log(arr.at[-1*i-1]);
+for (let i = 0; i < loop.length; i++) {
+    console.log(loop.at(-1*i-1));
 }
 
 // Task #8: Starting with an empty array in a new variable, create a loop that adds the first 10 cube numbers (e.g. 1*1*1==1**3=1, 2*2*2==2**3==8, etc.) to the array, then log the array itself.
@@ -73,7 +73,7 @@ console.log(nacci);
 // Task #10: Starting with an empty array in a new variable, add the elements of arr to it in reverse order.
 console.log("Task #10");
 let newarr = [];
-for (let i = 0; i < arr.length; i++) {
-    newarr.push.at(arr.pop(-1*i-1))
+while (loop.length > 0) {
+    newarr.push(loop.pop())
 }
-console.log(arr);
+console.log(newarr);

@@ -1,16 +1,16 @@
-.bg {
-    height: 100vb;
-    width: 100vb;
-    background-color: black;
+body {
+    background-color: #e7c9a9;
+
 }
 
-#move{
-    background: black;
-    height: 100vb;
-    width: 100vb;
-    aspect-ratio: 1;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: fixed;
+.classy-my-assy {
+    text-align: center;
+    color: red;
+    style: 
+}
+
+.classy-boi {
+    text-align: center;
+    color: red;
+    font-family: Top Secret;
 }
